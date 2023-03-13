@@ -25,5 +25,12 @@ public class Request {
     private String source;
 
     private Integer communicationId;
+    private Integer templateId;
+
+    @Max(7)
+    private Integer productCode;
+
+    @Max(5)
+    private Integer smsCode;
 
 }
